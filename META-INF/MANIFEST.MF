@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Toast Emergency
+Bundle-SymbolicName: com.brokencranium.toast.client.emergency
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BROKENCRANIUM
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Import-Package: com.brokencranium.toast.airbag,
+ com.brokencranium.toast.gps,
+ org.osgi.framework;version="1.8.0"
+Service-Component: OSGI-INF/component.xml
